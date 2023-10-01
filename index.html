@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./images/hangman-favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Hangman Game</title>
+</head>
+<body>
+    <div class="game-modal">
+        <div class="gm-content">
+            <img src="./images/game-over.png" alt="game-over">
+            <h4>Hangman met his fate at the gallows!</h4>
+            <p>The correct word was: <b>Rainbow</b></p>
+            <button class="play-again">Play Again</button>
+        </div>
+    </div>
+    <div class="game">
+        <div class="image">
+            <img src="./images/hangman-0.svg" alt="hangman-rope">
+            <h1 class="main-heading">Hangman</h1>
+        </div>
+        
+        <div class="content">
+            <ul id="word">
+                <!--<li>h</li>
+                <li>e</li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li> -->
+            </ul>
+            <h3 id="hint">Hint:</h3>
+            <h5>Incorrect Guesses: <span>6 / 6</span></h5>
+            <div class="letters">
+                <button>A</button>
+                <button>B</button>
+                <button>C</button>
+                <button>D</button>
+                <button>E</button>
+                <button>F</button>
+                <button>G</button>
+                <button>H</button>
+                <button>I</button>
+                <button>J</button>
+                <button>K</button>
+                <button>L</button>
+                <button>M</button>
+                <button>N</button>
+                <button>O</button>
+                <button>P</button>
+                <button>Q</button>
+                <button>R</button>
+                <button>S</button>
+                <button>T</button>
+                <button>U</button>
+                <button>V</button>
+                <button>W</button>
+                <button>X</button>
+                <button>Y</button>
+                <button>Z</button>
+            </div>
+            <p>Use in-display or physical keyboard to select alphabets.</p>
+        </div>
+    </div>
+    <script src="./wordList.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
