@@ -126,8 +126,8 @@ function displayResult()
 
 let timer;
 let isFirstTime = true;
-let timeLeft = 10;
-let totalTime = 10;
+let timeLeft = 60;
+let totalTime = 60;
 function focusInputOnKeyPress() {
     inputField.focus();
 }
