@@ -40,9 +40,9 @@ cd typing-test-project
 Open the index.html file in your web browser to start the typing test.
 
 ## Usage
-Start typing the displayed paragraph in the input field.
-Your progress, mistakes, and typing speed will be displayed in real-time.
-Once the timer reaches zero, your performance will be displayed.
-You can click the "Try Again" button to practice more paragraphs.
-Contributing
+-Start typing the displayed paragraph in the input field.
+-Your progress, mistakes, and typing speed will be displayed in real-time.
+-Once the timer reaches zero, your performance will be displayed.
+-You can click the "Try Again" button to practice more paragraphs.
+## Contributing
 Contributions to this project are welcome! If you'd like to add new features, fix bugs, or improve the user experience, please fork the repository and submit a pull request. Make sure to follow the project's code of conduct.
