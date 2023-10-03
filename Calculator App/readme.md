@@ -16,5 +16,5 @@ This is a basic calculator web application built using HTML, CSS, and JavaScript
 
 ## Demo
 
-You can try the live demo [here](#https://www.calculator-arj.netlify.app).
+You can try the live demo [here https://www.calculator-arj.netlify.app](#).
 
