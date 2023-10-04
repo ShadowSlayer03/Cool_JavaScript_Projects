@@ -39,6 +39,9 @@ Copy code
 cd typing-test-project
 Open the index.html file in your web browser to start the typing test.
 
+## Live Preview
+Hosted at (https://typing-speed-test-arj.netlify.app)
+
 ## Usage
 - Start typing the displayed paragraph in the input field.
 - Your progress, mistakes, and typing speed will be displayed in real-time.
