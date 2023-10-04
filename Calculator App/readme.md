@@ -14,7 +14,7 @@ This is a basic calculator web application built using HTML, CSS, and JavaScript
 3. Click the "=" button or press Enter to calculate the result.
 4. To clear the input and result, click the "AC" button.
 
-## Demo
+## Live Preview
 
-You can try the live demo [here](https://calculator-arj.netlify.app/).
+Hosted at (https://calculator-arj.netlify.app/)
 
