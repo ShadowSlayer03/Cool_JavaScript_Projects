@@ -9,7 +9,7 @@ This Drum Kit project is a simple web application that allows you to create drum
 - **Responsive Design:** The web application is designed to work seamlessly on various devices and screen sizes.
 
 ## Live Preview
-Hosted at (https://www.drum-kit-project-arj.netlify.app)
+Hosted at (https://drum-kit-project-arj.netlify.app/)
 
 ## Usage
 - Click on the drum buttons to generate drum sounds.
