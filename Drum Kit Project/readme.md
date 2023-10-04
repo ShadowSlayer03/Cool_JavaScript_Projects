@@ -15,7 +15,6 @@ Hosted at (https://drum-kit-project-arj.netlify.app/)
 - Click on the drum buttons to generate drum sounds.
 - Experiment with different combinations to create your own beats and rhythms.
 
-- 
 ## Contributing
 If you'd like to contribute to this project, feel free to fork the repository and submit a pull request with your improvements.
 
