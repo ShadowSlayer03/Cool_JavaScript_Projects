@@ -5,10 +5,9 @@ The Quote Generator App is a simple web application that provides users with ran
 
 ## Features
 
-- **Random Quotes**: Get a new random quote every time you click the "Generate Quote" button.
+- **Random Quotes**: Get a new random quote every time you click the "Random Quote" button.
 - **Categories**: Filter quotes by categories such as Success, Technology, Life, and more.
 - **Share Quotes**: Share your favorite quotes on Twitter.
-- **Responsive Design**: The app is responsive and works well on both desktop and mobile devices.
 
 ## Live Preview
 
@@ -33,5 +32,5 @@ To run the Quote Generator App locally, follow these steps:
 That's it! You should now see the Quote Generator App running locally on your machine.
 
  ## Usage
-- Click the "Generate Quote" button to get a random quote.
+- Click the "Random Quote" button to get a random quote.
 - Use the category buttons to generate new quotes by category.
