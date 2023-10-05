@@ -12,7 +12,7 @@ The Quote Generator App is a simple web application that provides users with ran
 
 ## Live Preview
 
-Hosted at [here](https://quote-generator-arj.netlify.app).
+Hosted at [https://quote-generator-arj.netlify.app](https://quote-generator-arj.netlify.app).
 
 ## Installation
 
@@ -23,8 +23,7 @@ To run the Quote Generator App locally, follow these steps:
    ```bash
    git clone https://github.com/yourusername/quote-generator-app.git
 2. Navigate to the project directory:
-Copy code
-bash
+   
 cd quote-generator-app
 
    ```bash
