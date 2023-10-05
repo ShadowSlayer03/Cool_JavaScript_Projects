@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body{
+    background: #bbc6fa;
+}
+
+.container{
+    display: flex;    
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+h1,p{
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* Layout Styling */
+
+#container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+/* Button Styles */
+
+.button {
+  display: inline-flex;
+  height: 40px;
+  width: 150px;
+  border: 2px solid black;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: .8em;
+  letter-spacing: 1.5px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+/* Third Button */
+
+#button-3 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-3 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#circle {
+  width: 0%;
+  height: 0%;
+  opacity: 0;
+  line-height: 40px;
+  border-radius: 50%;
+  background: black;
+  position: absolute;
+  transition: all .5s ease-Out;
+  top: 20px;
+  left: 70px;
+}
+
+#button-3:hover #circle {
+  width: 200%;
+  height: 500%;
+  opacity: 1;
+  top: -70px;
+  left: -70px;
+}
+
+#button-3:hover a {
+  color: #bbc6fa;
+}
+
+.quote-div{
+    background: #fff;
+    width: 1000px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.quote-div h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.quote-div h2::after{
+    content: "";
+    width: 75px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgba(23,124,229);
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quote-div blockquote{
+    font-size: 25px;
+    min-height: 110px;
+}
+
+.quote-div blockquote::before, .quote-div blockquote::after{
+    content: '"';
+
+}
+
+.quote-div span{
+    display: block;
+    float: right;
+    position: relative;
+    bottom: 5px;
+}
+
+.quote-div span::before{
+    content: "";
+    width: 20px;
+    height: 2px;
+    background: rgba(23,124,229);
+    position: absolute;
+    top: 50%;
+    left: -30px;
+}
+
+#buttons-div{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 30px;
+}
+
+#buttons-div button{
+    border: none;
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    background: rgba(23,124,229);
+    margin: 15px;
+    border-radius: 25px;
+    border: 1px solid rgba(23,124,229);
+    cursor: pointer;
+}
+
+#buttons-div img{
+    width: 15px;
+    margin-right: 10px;
+}
+
+#buttons-div button:nth-child(2)
+{
+    background: transparent;
+    color: #333;
+}
