@@ -26,7 +26,8 @@ To run the Quote Generator App locally, follow these steps:
 Copy code
 bash
 cd quote-generator-app
-```bash
+
+   ```bash
 4. Open the index.html file in your web browser.
 
 That's it! You should now see the Quote Generator App running locally on your machine.
