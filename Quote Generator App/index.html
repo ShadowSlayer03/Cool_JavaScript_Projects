@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/quotes.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="canonical" href="/web/tweet-button">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Random Quote Generator</title>
+</head>
+<body>
+    <div class="container">
+        <h1><b>Quote Generator</b></h1>
+        <div>Choose a category from here or generate random below:</div>
+
+        <!-- Flex Container -->
+        <div id="container">
+          <div class="button" id="button-3">
+            <div id="circle"></div>
+            <a href="#">Success</a>
+          </div>
+          <div class="button" id="button-3">
+            <div id="circle"></div>
+            <a href="#">Technology</a>
+          </div>
+          <div class="button" id="button-3">
+            <div id="circle"></div>
+            <a href="#">History</a>
+          </div>
+          <div class="button" id="button-3">
+            <div id="circle"></div>
+            <a href="#">Life</a>
+          </div>
+          <!-- End Container -->
+        </div>
+    </div>
+    <div class="quote-div">
+        <h2>Quote of the Day</h2>
+        <blockquote>Loading...</blockquote>
+        <span>Loading...</span>
+        <div id="buttons-div">
+            <button>Random Quote</button>
+            <button><img src="./images/twitter.png" alt="twitter-logo">Tweet</button>
+        </div>
+    </div>
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
