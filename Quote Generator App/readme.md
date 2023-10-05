@@ -6,13 +6,13 @@ The Quote Generator App is a simple web application that provides users with ran
 ## Features
 
 - **Random Quotes**: Get a new random quote every time you click the "Generate Quote" button.
-- **Categories**: Filter quotes by categories such as Inspirational, Motivational, Love, Life, and more.
-- **Share Quotes**: Share your favorite quotes on social media or copy them to your clipboard.
+- **Categories**: Filter quotes by categories such as Success, Technology, Life, and more.
+- **Share Quotes**: Share your favorite quotes on Twitter.
 - **Responsive Design**: The app is responsive and works well on both desktop and mobile devices.
 
-## Demo
+## Live Preview
 
-You can try the live demo of the Quote Generator App [here](https://quote-generator-arj.netlify.app).
+Hosted at [here](https://quote-generator-arj.netlify.app).
 
 ## Installation
 
