@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    padding: 10px 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(./images/background.png);
+    
+}
+.hero h3{
+    font-size: 30px;
+}
+.hero h3 span{
+    color: yellowgreen;
+}
+.hero h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+.hero h1 span{
+    color: yellowgreen;
+}
+.hero p{
+    font-size: medium;
+}
+
+/* Submit div */
+.submit{           
+    display: flex;
+    width: 400px;
+}
+
+/* input box */
+#email-input{
+    border: none;
+    outline: none;
+    margin: 0;
+    flex: 1;
+    padding: 13px;
+}
+
+/* submit button */
+#submit-button{
+    margin: 0;
+    padding: 13px 30px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+#submit-button:active{
+    transform: translate(0px,0.4px);
+}
+#submit-button img{
+    height: 20px;
+}
+.message{
+    color: lawngreen;
+}
