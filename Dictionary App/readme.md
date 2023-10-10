@@ -13,7 +13,7 @@ Welcome to the Dictionary App! This application allows you to look up the meanin
 ## Features
 
 - Search for word meanings and definitions.
-- Get the phoenitics as well as hear the pronunciations.
+- Get the phonetics as well as hear the pronunciations.
 - Complete with examples of usages of the word in different contexts. 
 
 ## Installation
