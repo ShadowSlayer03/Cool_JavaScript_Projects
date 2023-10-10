@@ -27,8 +27,8 @@ To use the Dictionary App, follow these steps:
 
 2. Navigate to the project directory:
    
-      ```bash
-  cd dictionary-app   
+   ```bash
+    cd dictionary-app   
 
 3. Open index.html and view it.
 
@@ -39,7 +39,7 @@ Hosted at [https://dictionary-app-arj.netlify.app](https://dictionary-app-arj.ne
 ## Usage
 Enter a word in the search bar.
 Press the "Search" button.
-View the meanings, definitions of the word.
+View the meanings, definitions of the word along with its usage.
 
 ## Contributing
 We welcome contributions from the community! If you'd like to contribute to the Dictionary App, please follow these steps:
