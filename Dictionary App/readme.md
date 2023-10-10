@@ -26,8 +26,15 @@ To use the Dictionary App, follow these steps:
    git clone https://github.com/yourusername/dictionary-app.git
 
 2. Navigate to the project directory:
-
+   
+   ```bash
   cd dictionary-app   
+
+3. Open index.html and view it.
+
+## Live Preview
+
+Hosted at [https://dictionary-app-arj.netlify.app](https://dictionary-app-arj.netlify.app)
 
 ## Usage
 Enter a word in the search bar.
