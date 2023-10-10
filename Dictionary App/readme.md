@@ -27,7 +27,7 @@ To use the Dictionary App, follow these steps:
 
 2. Navigate to the project directory:
    
-   ```bash
+      ```bash
   cd dictionary-app   
 
 3. Open index.html and view it.
