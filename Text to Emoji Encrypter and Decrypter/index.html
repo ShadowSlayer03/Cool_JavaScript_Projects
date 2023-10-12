@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="shortcut icon" href="./images/android-chrome-512x512.png" type="image/x-icon">
+    <title>Emojify Me</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Text <i class="fa-solid fa-arrow-right fa-beat-fade" style="color: #ffffff;"></i> Emoji</h1>
+        <div id="encrypt-decrypt">
+            <h3 id="enc-btn"><i class="fa-solid fa-lock" style="color: #ffffff;"></i>Encrypt Text</h3>
+            <h3 id="dec-btn"><i class="fa-solid fa-lock-open" style="color: #ffffff;"></i>Decrypt Text</h3>
+        </div>
+            <div id="encryption">
+                <form>
+                <h5>1. Type a Message:</h5>
+                <textarea name="mesg" id="message1" cols="30" rows="10" placeholder="Enter text to encrypt" required></textarea>
+                <h5>2. Set a Password:</h5>
+                <input type="password" id="paswd-input1" placeholder="Password" required>
+                <h5>3. Encrypt Message:</h5>
+                <button type="button" id="encrypt-btn"><i class="fa-solid fa-lock" style="color: #ffffff;"></i><span>Encrypt</span></button>
+                </form>
+            </div>
+            <div id="decryption">
+                <form>
+                <h5>1. Input encrypted emojis:</h5>
+                <textarea name="mesg" id="message2" cols="30" rows="10" placeholder="Enter text to decrypt" required></textarea>
+                <h5>2. Type the Password:</h5>
+                <input type="password" id="paswd-input2" placeholder="Password" required>
+                <h5>3. Decrypt Message:</h5>
+                <button type="button" id="decrypt-btn"><i class="fa-solid fa-lock-open" style="color: #ffffff;"></i><span>Decrypt</span></button>
+                </form>
+            </div>
+            <div id="result">
+
+            </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
