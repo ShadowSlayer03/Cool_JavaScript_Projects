@@ -48,7 +48,7 @@ Your secret emoji message is decoded back into "Hello, world!"
 
 ## Live Preview
 
-Hosted at [https://emojify-me-arj.netlify.app](https://emojify-me-arj.netlify.app)
+Hosted at [https://emojify-me.netlify.app](https://emojify-me.netlify.app)
 
 ## Have Emoji-Tastic Fun! 🌈🎉
 
