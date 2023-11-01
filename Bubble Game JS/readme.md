@@ -8,7 +8,7 @@ Try to hit as many bubbles with the right number as possible within the specifie
 - Click on bubbles to pop them and score points.
 - You must click on bubbles that contain the specific target number.
 - Avoid clicking on bubbles with the wrong number to prevent losing points.
-- The game has a countdown timer. Clcik as many bubbles with the right number before the time runs out.
+- The game has a countdown timer. Click as many bubbles with the right number before the time runs out.
 - Beat your High Score!
 
 ## Technologies Used
