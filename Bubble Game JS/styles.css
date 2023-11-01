@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand',sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top, #278833 0%, #233329 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#game-over{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: rgba(11, 11, 11, 0.789);
+}
+
+#game-over img{
+    width: 350px;
+    background-color: #278833;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#game-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    width: 350px;
+    background-color: #278833;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#game-details h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#game-over button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    background-color: #afef76;
+    cursor: pointer;
+}
+
+#panel{
+    width: 60%;
+    height: 90%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #08e1ae;
+    background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%);
+}
+
+#panel-top{
+    width: 100%;
+    height: 100px;
+    background-color: #607123;
+    background-image: linear-gradient(314deg, #566520 0%, #8aab3e 74%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.elem{
+    width: 10%;
+    display: flex;
+    align-items: center;    
+    gap: 10px;
+}
+
+.box{
+    color: #000;
+    padding: 10px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+
+}
+
+#panel-bottom{
+    width: 100%;
+    height: calc(100% - 100px);
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #24552d;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.bubble:hover{
+    background-color: rgb(57, 80, 57) ;
+}
+
+.bubble:active{
+    transform: translateY(2px);
+}
